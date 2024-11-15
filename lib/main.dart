@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
-                radius: 90,
+                radius: 80,
                 backgroundColor: Colors.grey,
                 child: Icon(
                   Icons.bloodtype_outlined,
