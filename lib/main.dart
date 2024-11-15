@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
           title: const Text('Need Blood'),
           foregroundColor: Colors.white,
           backgroundColor: Colors.red,
-          actions: const [
-            Icon(Icons.add),
+          actions: [
+            IconButton(onPressed: (){},icon: const Icon(Icons.add)),
           ],
         ),
         body: const Center(
